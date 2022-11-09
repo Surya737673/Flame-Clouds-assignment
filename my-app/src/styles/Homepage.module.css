@@ -1,0 +1,94 @@
+.hide1{
+  display: none;
+  margin-top: 10px;
+  background-color: white;
+}
+.hover1:hover ~ .hide1{
+    display: block;
+    border: 1px solid;
+    margin-left: 630px;
+    position: absolute;
+    z-index: 2;
+    background-color: whitesmoke;
+}
+.hide1:hover{
+    display: block;
+    margin-right: 20px;
+    
+}
+
+.hover1:hover.hide1{
+    display: block;
+}
+
+
+.hide2{
+    display: none;
+    margin-top: 10px;
+    background-color: white;
+  }
+  .hover2:hover ~ .hide2{
+      display: block;
+      border: 1px solid;
+      margin-left: 630px;
+      position: absolute;
+      z-index: 2;
+      background-color: whitesmoke;
+  }
+  .hide2:hover{
+      display: block;
+      margin-right: 20px;
+      
+  }
+  
+  .hover2:hover.hide2{
+      display: block;
+  }
+
+
+
+.hide2{
+    display: none;
+}
+
+
+.hide3{
+    display: none;
+    margin-top: 10px;
+    background-color: white;
+  }
+  .hover3:hover ~ .hide3{
+      display: block;
+      border: 1px solid;
+      margin-left: 630px;
+      position: absolute;
+      z-index: 2;
+      background-color: whitesmoke;
+  }
+  .hide3:hover{
+      display: block;
+      margin-right: 20px;
+      
+  }
+  
+  .hover3:hover.hide3{
+      display: block;
+  }
+
+  .managebutton:hover ~ .SOPhide{
+   display: block;
+  }
+
+
+/* .SOPhide{
+  display: none;
+}
+.Planhide{
+    display: none;
+}
+.Deletehide{
+    display: none;
+}
+.Pointerhide{
+    display: none;
+} */
